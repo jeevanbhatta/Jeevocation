@@ -50,3 +50,12 @@ Open [http://localhost:3000](http://localhost:3000).
 - React 19
 - TypeScript
 - Tailwind CSS
+
+## Deploy to GitHub Pages
+
+1. Push the repo to GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions** (not "Deploy from a branch").
+4. Push to `main` — the workflow will build and deploy automatically.
+
+The site will be live at `https://<username>.github.io/Jeevocation/`.
